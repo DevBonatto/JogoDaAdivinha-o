@@ -6,7 +6,7 @@
   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;
 </p>
 <br>
-## 🚀 Tecnologias
+##🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
@@ -15,7 +15,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - JavaScript
 - Figma
 
-## 💻 Projeto
+##💻 Projeto
 
 O intuito desse desafio era replicar um Jogo da Adivinhação proposto pela RocketSeat.
 
