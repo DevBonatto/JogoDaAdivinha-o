@@ -4,6 +4,7 @@ const screen2 = document.querySelector('.screen-2')
 const screen2H2 = document.querySelector('.screen-2 h2')
 const buttonTry = document.querySelector('#buttonTry')
 const buttonReset = document.querySelector('#buttonReset')
+const inputNumber = document.querySelector('#inputNumber')
 
 let randomNumber = Math.round(Math.random() * 10)
 let xAttempts = 1
@@ -13,23 +14,21 @@ let xAttempts = 1
 function handleTryClick(event) {
   event.preventDefault()
 
-  const inputNumber = document.querySelector('#inputNumber')
-
-  if (Number(inputNumber.value) != '') {
-    if (Number(inputNumber.value) >= 0 && Number(inputNumber.value) <= 10) {
-      if (Number(inputNumber.value) === randomNumber) {
+  if(Number(inputNumber.value) != '') {
+    if(Number(inputNumber.value) >= 0 && Number(inputNumber.value) <= 10) {
+      if(Number(inputNumber.value) === randomNumber) {
         toggleScreen()
-        if (xAttempts === 1) {
+        if(xAttempts === 1) {
          screen2H2.innerText = `Você acertou em ${xAttempts} tentativa!`
-        } else {
+        }else {
           screen2H2.innerText = `Você acertou em ${xAttempts} tentativas!`
         }
       }
       xAttempts++
-    } else { 
+    }else { 
         alert('Por favor, digite um número válido entre 0 e 10!')
     }
-  } else {
+  }else {
     alert('Campo nulo, por favor digite um valor para uma tentativa válida!')
    }
     inputNumber.value = ''
@@ -49,7 +48,7 @@ function toggleScreen() {
 }
 
 function handlEnterPress(event) {
-  if (event.key === 'Enter' && screen1.classList.contains('hide')) {
+  if(event.key === 'Enter' && screen1.classList.contains('hide')) {
     handleResetClick()
   }
 }
