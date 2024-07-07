@@ -36,4 +36,4 @@ Proposta:
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/yzL7gxARFsTrcTsAzfaQyf/Jogo-Adivinha%C3%A7%C3%A3o-Copy?fuid=1369823793362288511)
 
 ## 📄 Documentação Lógica
-[CLIQUE AQUI](https://smallpdf.com/pt/file#s=b84d3063-273f-4396-9dc3-c52514f57a0f) para ver a documentação lógica do projeto.
+[CLIQUE AQUI](https://drive.google.com/file/d/1s-uquS5PChsv1BFuw1aJ0LYhl5yDeI4s/view?usp=sharing) para ver a documentação lógica do projeto.
